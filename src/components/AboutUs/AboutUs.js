@@ -4,7 +4,7 @@ import './AboutUs.css';
 
 const AboutUs = () => {
     return (
-        <div>
+        <div id="about">
             <div className="row container mx-auto pt-5">
                 <div className="col-12 col-md-6 d-flex align-items-center justify-content-center">
                     <img className="w-100" src={aboutSvg} alt="" />

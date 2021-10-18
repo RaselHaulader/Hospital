@@ -1,9 +1,14 @@
 import React from 'react';
+import ContactBar from '../ContactBar/ContactBar';
 import Doctor from '../Doctor/Doctor';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 
 const Doctors = () => {
     return (
         <div>
+            <Header></Header>
+            <ContactBar></ContactBar>
             <div className="pt5 mt-5 container mx-auto">
                 <div className="text-center service-header">
                     <h1 className="my-4">Our Expert Doctors</h1>
@@ -18,6 +23,7 @@ const Doctors = () => {
                      <Doctor></Doctor> 
                 </div>
             </div>
+            <Footer></Footer>
         </div>
     );
 };
