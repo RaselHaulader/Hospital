@@ -1,0 +1,32 @@
+.about-header{
+    font-size: 30px;
+    font-weight:bolder;
+    text-shadow: 2px 0 #013260;
+    letter-spacing:2px;
+    color: #013260;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+}
+.about-header2{
+    font-size: 40px;
+    font-weight:bolder;
+    text-shadow: 2px 0 #013260;
+    letter-spacing:2px;
+    color: #013260;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+}
+.about-header::before{
+   content: '';
+   display: inline-block;
+   width: 30px;
+   position: absolute;
+   bottom: -10px;
+   left:48%;
+   height: 3px;
+   background-color: rgb(2, 2, 155);
+}
+.about-details{
+    line-height: 40px;
+    color: grey;
+}

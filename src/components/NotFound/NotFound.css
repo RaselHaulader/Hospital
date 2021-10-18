@@ -1,0 +1,6 @@
+.notFound-page{
+    background-image: url('../../images/404.png');
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}

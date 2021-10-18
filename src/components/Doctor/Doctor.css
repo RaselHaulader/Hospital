@@ -1,0 +1,42 @@
+
+.doctor-container{
+    position: relative;
+    box-shadow: 1px 1px 25px -11px rgba(0,0,0,0.4);
+    border-radius: 15px;
+    border-left:0.5px solid rgba(45, 45, 206, 0.322); 
+
+    transition: 0.5s;
+}
+.doctor-container:hover{
+    transform: scale(1.05);
+    border-left:5px solid rgba(26, 26, 204, 0.822); 
+
+}
+.doctor-container:hover .doctor-info h4{
+  color: rgb(20, 20, 221);
+
+}
+.doctore-img{
+    width: 90px;
+    top: -20px;
+    right: -40px;
+    position: absolute;
+    border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
+    border: 3px solid rgba(41, 41, 233, 0.781);
+}
+.doctor-info h4{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: #013260;
+}
+.doctor-info p{
+    color: grey;
+}
+.doctor-info .fab{
+    background-color: rgba(7, 7, 73, 0.404);
+    color: white;
+}
+.doctor-info .fab:hover{
+    background-color: rgb(29, 29, 151);
+    color: white;
+}

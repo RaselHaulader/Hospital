@@ -1,0 +1,43 @@
+.send-message-form input, textarea{
+       display: block;
+       width: 100%;
+
+}
+.contact-header{
+        font-size: 40px;
+        font-weight:bolder;
+        text-shadow: 2px 0 #013260;
+        letter-spacing:2px;
+        color: #013260;
+        font-family: 'Titillium Web', sans-serif;
+        position: relative;
+}
+.contact-header::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    position: absolute;
+    bottom: -10px;
+    left:48%;
+    height: 3px;
+    background-color: rgb(2, 2, 155);
+ }
+.contact-header2{
+        font-size: 20px;
+        font-weight:bolder;
+        text-shadow: 2px 0 #013260;
+        letter-spacing:2px;
+        color: #013260;
+        font-family: 'Titillium Web', sans-serif;
+        position: relative;
+}
+.contact-header2::before{
+    content: '';
+    display: inline-block;
+    width: 30px;
+    position: absolute;
+    bottom: -10px;
+    left:48%;
+    height: 3px;
+    background-color: rgb(2, 2, 155);
+ }

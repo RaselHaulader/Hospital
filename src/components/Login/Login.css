@@ -33,3 +33,15 @@
 .login-form p{
     cursor: pointer;
 }
+.google-sign-btn{
+    background-color: rgba(255, 88, 59, 0.534);
+    color: white;
+}
+.fb-sign-btn{
+    background-color: rgba(20, 52, 233, 0.568);
+    color: white;
+}
+.twitter-sign-btn{
+    background-color: rgba(67, 204, 223, 0.349);
+    color: white;
+}
