@@ -1,9 +1,15 @@
 import React from 'react';
 import img from '../../images/cardiology.jpg'
+import ContactBar from '../ContactBar/ContactBar';
+import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
 import './ServiceDetails.css'
 const ServiceDetails = () => {
     return (
         <div>
+            <Header></Header>
+            <ContactBar></ContactBar>
+            <div>
             <h1 className="text-center my-5 service-details-heading">Service Details</h1>
             <div className="row container">
                 <div className=" col-12 col-md-6">
@@ -22,6 +28,8 @@ const ServiceDetails = () => {
 
                 </div>
             </div>
+        </div>
+        <Footer></Footer>
         </div>
     );
 };

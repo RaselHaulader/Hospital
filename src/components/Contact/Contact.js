@@ -27,25 +27,25 @@ const Contact = () => {
                 </div>
                 <div className="col-12 col-md-6 p-3">
                     <div className="row container">
-                        <div className="col-6 p-2">
+                        <div className="col-12 col-md-6 p-2">
                             <div className="border m-2 rounded-3 p-4 text-center">
                                 <h4>Address</h4>
                                 <p className="text-secondary">dosjfsadfosdf</p>
                             </div>
                         </div>
-                        <div className="col-6 p-2">
+                        <div className="col-12 col-md-6 p-2">
                             <div className="border m-2 rounded-3 p-4 text-center">
                                 <h4>Address</h4>
                                 <p className="text-secondary">dosjfsadfosdf</p>
                             </div>
                         </div>
-                        <div className="col-6 p-2">
+                        <div className="col-12 col-md-6 p-2">
                             <div className="border m-2 rounded-3 p-4 text-center">
                                 <h4>Address</h4>
                                 <p className="text-secondary">dosjfsadfosdf</p>
                             </div>
                         </div>
-                        <div className="col-6 p-2">
+                        <div className="col-12 col-md-6 p-2">
                             <div className="border m-2 rounded-3 p-4 text-center">
                                 <h4>Address</h4>
                                 <p className="text-secondary">dosjfsadfosdf</p>
