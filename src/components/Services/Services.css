@@ -1,0 +1,19 @@
+.service-header h1{
+    font-size: 40px;
+    font-weight:bolder;
+    text-shadow: 2px 0 #013260;
+    letter-spacing:2px;
+    color: #013260;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+}
+.service-header h1::before{
+   content: '';
+   display: inline-block;
+   width: 30px;
+   position: absolute;
+   bottom: -10px;
+   left:49.5%;
+   height: 3px;
+   background-color: rgb(2, 2, 155);
+}

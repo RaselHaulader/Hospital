@@ -1,0 +1,24 @@
+.header-logo{
+    width: 150px;
+}
+.header-nav-link a{
+    margin: 0px 20px 0 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(36, 36, 36, 0.808) !important;
+    border-bottom:2px solid rgba(10, 165, 255, 0) ;
+}
+.header-nav-link a:hover{
+    color: rgb(10, 165, 255) !important;
+    border-bottom:2px solid rgb(10, 165, 255) ;
+}
+.gradient-btn{
+    background: linear-gradient(100deg, #1E0F8C , #15d5f7 );
+    box-shadow: 1px 3px 10px 2px rgba(0, 255, 255, 0.342);
+}
+.fa-angle-right{
+    background-color: #1ecdecd3;
+    padding: 5px 8px;
+    border-radius: 50%;
+    ;
+}

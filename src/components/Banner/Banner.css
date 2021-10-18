@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+.home-banner{
+    background-image: url('../../images/home-banner.png');
+    background-position:center;
+    background-size: cover;
+    height:85vh;
+    font-family: 'Titillium Web', sans-serif;
+    position: relative;
+
+}
+.home-banner h1{
+    font-size: 50px;
+    font-weight:bolder;
+    text-shadow: 2px 0 #013260;
+    letter-spacing:2px;
+    color: #013260;
+}
+.home-banner p{
+    color: rgba(83, 83, 90, 0.822);
+    font-weight: 500;
+}
+.banner-time{
+    background-color: #1e59d7ea;
+    position: absolute;
+    height: 100px;
+    left: 0;
+    right: 12px;
+    bottom: -50px;
+    color: white;
+    font-size: 14px;
+}
+.banner-time p,h6{
+    margin: 0;
+    padding: 0;
+}
+.banner-time p{
+    color: rgba(236, 231, 231, 0.863);
+    margin-top: 5px;
+}
+.banner-time i{
+    font-size: 24px;
+    margin-right: 10px;
+}
+.banner-middle-time{
+    background-color: #2369fffd;
+}
+@media screen and (max-width: 600px) {
+    .banner-info{
+        width: 100% !important;
+    }
+    .home-banner{
+        height: 100vh;
+    }
+    .banner-time{
+        display: none;
+    }
+   }

@@ -1,0 +1,12 @@
+.service-logo img{
+    border: 10px solid rgba(4, 0, 255, 0.199);
+    border-radius: 50%;
+    width: 80px;
+}
+.service-container{
+    box-shadow: 1px 1px 25px -11px rgba(0,0,0,0.4);
+    border-radius: 15px;
+}
+.service-info button:hover{
+    background: rgb(235, 235, 235);
+}
