@@ -6,11 +6,12 @@ const auth = getAuth();
 const useFirebase = () => {
     const [user, setUser] = useState([])
     const [errors, setError] = useState('')
+    const [loading, setLoading] = useState(true)
 
     const googleProvider = new GoogleAuthProvider()
 
     const googleSignIn = () => {
-       return signInWithPopup(auth, googleProvider)
+       return signInWithPopup(auth, googleProvider).finally(()=>setLoading(false))
             
     }
     const logOut = () => {
@@ -20,6 +21,8 @@ const useFirebase = () => {
                 setError('')
             })
             .catch((err) => setError(err.message))
+            .finally(()=>setLoading(false))
+            
     }
 
     const emailPassSignIn = (email, pass, name) => {
@@ -39,6 +42,7 @@ const useFirebase = () => {
     const emailPassLogin = (email, password) => {
         console.log(email, password)
        return signInWithEmailAndPassword(auth,email,password)
+       .finally(()=>setLoading(false))
     }
 
     useEffect(() => {
@@ -48,9 +52,10 @@ const useFirebase = () => {
             } else {
                 setUser([])
             }
+            setLoading(false)
         })
     }, [])
-    return { googleSignIn,setUser,auth, errors, user, logOut, emailPassSignIn, emailPassLogin }
+    return { googleSignIn,loading, setUser,auth, errors, user, logOut, emailPassSignIn, emailPassLogin }
 };
 
 

@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect className="w-75 py-2 my-0 mx-auto" expand="lg">
             <Container>
-                <Navbar.Brand href="#home"><img className="header-logo" src={logo} alt="" /></Navbar.Brand>
+                <NavLink to="/"><img className="header-logo" src={logo} alt="" /></NavLink>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto header-nav-link">

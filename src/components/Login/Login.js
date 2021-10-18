@@ -38,6 +38,7 @@ const Login = () => {
         googleSignIn().then(result => {
             setUser(result.user)
             history.push(redirect_uri)
+
             setError('')
         })
             .catch((err) => setError(err.message))
@@ -59,7 +60,7 @@ const Login = () => {
             return
         }
         emailPassLogin(email, password)
-        .then(result => {
+            .then(result => {
                 setUser(result.user)
                 history.push(redirect_uri)
                 console.log('signin')
