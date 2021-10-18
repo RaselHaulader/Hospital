@@ -71,7 +71,7 @@ const Login = () => {
         <div>
             <Header></Header>
             <ContactBar></ContactBar>
-            <div className="row container border mx-auto p-5 rounded-3">
+            <div className="row container border mx-auto mt-5 p-5 rounded-3">
                 <div className="col-12 col-md-6 d-flex align-items-center">
                     <img className="w-100" src={loginSvg} alt="" />
                 </div>

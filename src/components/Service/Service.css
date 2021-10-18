@@ -11,6 +11,6 @@
 .service-container:hover{
     transform: scale(1.05);
 }
-.service-info button:hover{
-    background: rgb(235, 235, 235);
+.service-info a:hover{
+    background: rgb(230, 230, 230);
 }
