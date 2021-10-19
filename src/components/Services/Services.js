@@ -17,7 +17,7 @@ const Services = () => {
                 <h1 className="fw-bold mb-5">Our Services</h1> 
                 <p>We provide best service to all our patient. We are committed to treat you very carefully.</p>
                <div className="row container mx-auto">
-                  {services.map((service)=> <Service service={service} />)}
+                  {services.map((service)=> <Service key={service.id} service={service} />)}
                </div>
             </div>
         </div>

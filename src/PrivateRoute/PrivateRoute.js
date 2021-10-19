@@ -7,7 +7,7 @@ const PrivateRoute = ({children, ...rest}) => {
     const {user, loading} = useAuth() 
 
     if (loading) {
-        return "loading"
+        return (<h3 className="text-center my-5 fw-bold text-primary">Loading...</h3>)
     }
     return (
         <Route {...rest} render={({location})=>

@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import logo from '../../images/logo.png';
 import './Header.css';
 import { HashLink } from 'react-router-hash-link';
-import { Link, NavLink } from 'react-router-dom';
+import {NavLink } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 const Header = () => {

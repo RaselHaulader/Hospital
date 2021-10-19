@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
-import img from '../../images/cardiology.jpg'
 import ContactBar from '../ContactBar/ContactBar';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
@@ -17,11 +16,8 @@ const ServiceDetails = () => {
     },[])
 
     useEffect(()=>{
-        console.log(id)
-        console.log(services)
         const service = services.filter((item)=> item.id === parseInt(id))
         setService(service[0])
-        console.log(service)
     },[services])
 
     return (

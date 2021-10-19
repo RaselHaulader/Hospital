@@ -13,7 +13,7 @@ const AboutUs = () => {
                     <div className="about-details">
                         <h1 className=" about-header text-center my-5">About us</h1>
                         <h1 className=" about-header2">We Are Specialize in Medical Diagnositics</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis perspiciatis recusandae possimus consequuntur perferendis inventore culpa quod excepturi exercitationem! Natus in aliquam atque autem asperiores. Enim reiciendis sed sapiente veniam.</p>
+                        <p>When you visit 8-2-8 Urgent Care, you will be seen by our professional staff of physicians, PA's, x-ray technicians and medical assistants who will provide you with high quality care, minimal wait times and a positive experience every time.</p>
                         <li>Committed To serve you our bes</li>
                         <li>Modern Technology</li>
                         <li>Experienced Doctors</li>
