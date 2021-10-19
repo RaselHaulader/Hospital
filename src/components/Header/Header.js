@@ -24,6 +24,7 @@ const Header = () => {
                         <NavLink activeStyle={activeStyle} to="/home">Home</NavLink>
                         <HashLink activeStyle={activeStyle} to="/home#services" >Services</HashLink>
                         <HashLink activeStyle={activeStyle} to="/home#about" >About</HashLink>
+                        <HashLink activeStyle={activeStyle} to="/home#prices" >Prices</HashLink>
                         <NavLink activeStyle={activeStyle} to="/doctors">Doctors</NavLink>
                         <NavLink activeStyle={activeStyle} to="/contact">Contact</NavLink>
                         <div className="header-btn">

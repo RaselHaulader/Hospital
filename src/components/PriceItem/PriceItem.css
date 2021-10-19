@@ -1,4 +1,8 @@
 .price-section{
     border-radius: 0% 100% 0% 100% / 55% 0% 100% 45% ;
     color: white;
+    background: rgba(24, 24, 197, 0.877);
+}
+.price-btn{
+background-color: rgba(22, 22, 175, 0.822);
 }

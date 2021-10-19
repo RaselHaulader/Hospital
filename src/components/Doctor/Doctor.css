@@ -22,7 +22,7 @@
     right: -40px;
     position: absolute;
     border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
-    border: 3px solid rgba(41, 41, 233, 0.781);
+    border: 3px solid rgba(93, 93, 156, 0.781);
 }
 .doctor-info h4{
     font-family: 'Titillium Web', sans-serif;

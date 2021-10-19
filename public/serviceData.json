@@ -1,0 +1,80 @@
+[
+    {
+      "serviceName": "Cardiology",
+      "id":1,
+      "logo": "https://i.ibb.co/sqjd1W6/02-Hodme-01-modified.png",
+      "img": "https://i.ibb.co/9ZW1pZV/Shot-of-a-surgeon-looking-at-a-monitor-in-an-operating-room.jpg",
+      "info": "Keeping your heart strong and healthy is crucial to your overall well-being. Our cardiology specialists are here to help you manage and treat your heart health no matter what you might need.",
+      "service1": "Cardiac rehabilitation.",
+      "service2": "Heart rhythm monitoring.",
+      "service3": "General cardiology consultation.",
+      "service4": "Stress testing.",
+      "service5": "Modern Technology",
+      "service6": "Experienced Doctors"
+    },
+    {
+      "serviceName": "Dental Surgery",
+      "id":2,
+      "logo": "https://i.ibb.co/bbNdC8G/02-Hodme-01-modified-1.png",
+      "img": "https://i.ibb.co/M1v8Wwj/dentist-examining-female-patient-with-tools.png",
+      "info": "We are here to help you with your teeth. Call us! We provide you with the best Endodontic care in a professional and compassionate manner. Years of experience. Advanced technologies. Professional care. Root Canal Specialist. Services: Cracked Teeth Treatment, Endodontic Treatment, Endodontic Retreatment, Endodontic Surgery, Post-Treatment Care.",
+      "service1": "Complete exams,dental cleanings.",
+      "service2": "root canals, and extractions.",
+      "service3": "Orthodontics.",
+      "service4": "full and partial dentures.",
+      "service5": "Modern Technology",
+      "service6": "Experienced Doctors"
+    },
+    {
+      "serviceName": "Ophthalmology",
+      "id":3,
+      "logo": "https://i.ibb.co/jzqhR2k/02-Hodme-01-modified-2.png",
+      "img": "https://i.ibb.co/gD2ksxw/Ophthalmologist-examining-boy-with-slit-lamp.jpg",
+      "info": "The public health advocate’s new policy statement, drafted with AOA input, urges greater action to bolster children’s vision care and underscores the value of comprehensive eye exams.",
+      "service1": "Macular Degeneration.",
+      "service2": "Cataract Surgery.",
+      "service3": "Common Eye Conditions.",
+      "service4": "Contact Lens Fittings.",
+      "service5": "Modern Technology",
+      "service6": "Experienced Doctors"
+    },
+    {
+      "serviceName": "Out Patient Surgery",
+      "id":4,
+      "logo": "https://i.ibb.co/HBYczjr/02-Hodme-01-modified-3.png",
+      "img": "https://i.ibb.co/KxN28z0/outpatietnt-1.jpg",
+      "info": "The increasing shift from inpatient to outpatient care is driven by many factors. Because inpatient care is typically much more expensive than outpatient services, reducing unnecessary or repeated hospitalization saves significant costs.",
+      "service1": "Wellness and prevention",
+      "service2": "Lab tests and MRI scans.",
+      "service3": "Surgeries and chemotherapy.",
+      "service4": "Drug or alcohol rehab therapy.",
+      "service5": "Modern Technology",
+      "service6": "Experienced Doctors"
+    },
+    {
+      "serviceName": "Gynaecological",
+      "id":5,
+      "logo": "https://i.ibb.co/Hz1Px3L/02-Hodme-01-modified-4.png",
+      "img": "https://i.ibb.co/gdRCzfY/gynacology-1.jpg",
+      "info": "Becoming a mother is one of the most joyous moments in a woman’s life. Those nine months of gestation can also be a complex time to navigate on your own. When you visit us, our trustworthy team of gynecologists and medical experts will support you in this journey with the right guidance so that you can enjoy optimal health during pregnancy as well as post-delivery.",
+      "service1": "Routine and yearly examinations.",
+      "service2": "Adolescent gynecology and counseling.",
+      "service3": "Birth control - contraception.",
+      "service4": "Pap smears.",
+      "service5": "Modern Technology",
+      "service6": "Experienced Doctors"
+    },
+    {
+      "serviceName": "Laboratory Analyze",
+      "id":6,
+      "logo": "https://i.ibb.co/8g5431n/02-Hodme-01-modified-5.png",
+      "img": "https://i.ibb.co/c60J4JL/Onsite-Laboratory-Investigations-and-Screening-Services.jpg",
+      "info": "When you require lab testing, you desire a location that offers convenient timings and quick results. Onsite laboratory testing and screening services not only minimize wait times for results, but also decrease the cost related to visiting different locations for lab work.",
+      "service1": "Chromatography Laboratory Analysis.",
+      "service2": "Spectroscopy laboratory Analysis.",
+      "service3": "Microscopy Analysis.",
+      "service4": "Thermal Analysis and Testing.",
+      "service5": "Modern Technology",
+      "service6": "Experienced Doctors"
+    }
+  ]
