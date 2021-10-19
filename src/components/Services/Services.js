@@ -4,7 +4,7 @@ import './Services.css';
 
 const Services = () => {
     const [services, setServices] = useState([])
-
+    // fetch service data and display them in ui
     useEffect(()=>{
           fetch('./serviceData.json')
           .then(result=> result.json())

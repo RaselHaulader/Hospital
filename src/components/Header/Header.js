@@ -15,6 +15,7 @@ const Header = () => {
         borderBottom:"2px solid rgb(10, 165, 255)"
     }
     return (
+        /* bootstrap nav bar */
         <Navbar collapseOnSelect className="w-75 py-2 my-0 mx-auto" expand="lg">
             <Container>
                 <NavLink to="/"><img className="header-logo" src={logo} alt="" /></NavLink>

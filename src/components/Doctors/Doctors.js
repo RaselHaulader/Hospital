@@ -6,6 +6,7 @@ import Header from '../Header/Header';
 
 const Doctors = () => {
     const [doctors, setDoctors]= useState([])
+    // fetch data from server
     useEffect(()=>{
         fetch('https://raw.githubusercontent.com/RaselHaulader/json/main/doctoreData.json')
         .then(result=>result.json())

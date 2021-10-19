@@ -13,7 +13,7 @@ const Banner = () => {
             </div>
 
 
-            
+            {/* banner time bar */}
             <div className="banner-time row ">
                 <div className="col-5 d-flex justify-content-end">
                     <div className="d-flex align-items-center ">

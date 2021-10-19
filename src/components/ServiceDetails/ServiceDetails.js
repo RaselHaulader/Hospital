@@ -8,13 +8,14 @@ const ServiceDetails = () => {
     const [services, setServices] = useState([])
     const [service, setService] = useState([])
     const {id} = useParams()
-
+    // fetch data from server for service details
     useEffect(()=>{
         fetch("https://raw.githubusercontent.com/RaselHaulader/json/main/serviceData.json")
         .then(result=>result.json())
         .then(data=> setServices(data))
     },[])
 
+    // filter targeted item
     useEffect(()=>{
         const service = services.filter((item)=> item.id === parseInt(id))
         setService(service[0])
@@ -40,7 +41,6 @@ const ServiceDetails = () => {
                         <p>✔ {service?.service4}</p>
                         <p>✔ {service?.service5}</p>
                         <p>✔ {service?.service6}</p>
-                       
                     </div>
                     <button className="btn my-4 border-0 rounded-pill ps-5  text-white py-0 gradient-btn">Booking Now <i class="fas ms-3 fa-angle-right"></i></button>
 

@@ -14,15 +14,18 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [ConfirmPassword, setConfirmPassword] = useState('');
     const [error, setError] = useState('')
+    // prevent reload to get out from private route by reloading
     const location = useLocation()
     const history = useHistory()
     const redirect_uri = location.state?.from || "/";
-
+    // checking for login or sign up toggle 
     const handleExist = () => {
         setUserExist(userExist === true ? false : true)
     }
+    // getting auth from useAuth hook
     const { user, setUser, googleSignIn, emailPassSignIn, emailPassLogin, errors } = useAuth()
-
+    
+    // set input field to useState
     const handleName = (e) => {
         const userName = e.target.value;
         setName(userName)
@@ -39,22 +42,29 @@ const Login = () => {
         const userPass = e.target.value;
         setConfirmPassword(userPass)
     }
+
+    // pop up google sign in
     const handleGoogleSignIn = () => {
         googleSignIn().then(result => {
             setUser(result.user)
-            history.push(redirect_uri)
 
+            // redirect user to ongoing path after login
+            history.push(redirect_uri)
             setError('')
         })
             .catch((err) => setError(err.message))
-
-        console.log('signIn google')
     }
+
+    // handle create account by email and pass
     const handleCreateAccount = () => {
+        
+        // validate email and pass field
         if (email.length < 2 || name.length < 2 || password.length < 6) {
             setError("Please Fill all the field properly and pass should be min 6 charechter")
             return
         }
+        
+        // validate confirm password
         if (ConfirmPassword !== password) {
             setError("Password Not Matched")
             return
@@ -63,7 +73,11 @@ const Login = () => {
         setError(errors)
         setUserExist(true)
     }
+
+    // handle login with email and pass previous created user
     const handleLogIn = () => {
+
+         // validate email and pass field
         if (email.length < 2 || password.length < 6) {
             setError("Please Fill all the field properly and pass should be min 6 charechter")
             return
@@ -71,11 +85,14 @@ const Login = () => {
         emailPassLogin(email, password)
             .then(result => {
                 setUser(result.user)
+
+            // redirect user to ongoing path after login
                 history.push(redirect_uri)
-                console.log('signin')
                 setError('')
             }).catch((err) => setError(err.message))
     }
+
+
     return (
         <div>
             <Header></Header>

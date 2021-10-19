@@ -12,6 +12,7 @@ const Contact = () => {
             <div className="mt-5">
                 <h1 className="contact-header text-center mb-5">Get In Touch With us</h1>
                 <div className="row container mx-auto">
+                    {/* contact form */}
                     <div className="col-12 col-md-6 p-3  py-5 rounded-3 border">
                         <div>
                             <h1 className="text-center contact-header2">Send Message</h1>
@@ -25,6 +26,7 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    {/* contact address boxes */}
                     <div className="col-12 col-md-6 p-3">
                         <div className="row container">
                             <div className="col-12 col-md-6 p-1">

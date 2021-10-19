@@ -5,7 +5,8 @@ import useAuth from '../Hooks/useAuth';
 
 const PrivateRoute = ({children, ...rest}) => {
     const {user, loading} = useAuth() 
-
+    
+    // prevent get out from private route by reload by existing user 
     if (loading) {
         return (<h3 className="text-center my-5 fw-bold text-primary">Loading...</h3>)
     }
