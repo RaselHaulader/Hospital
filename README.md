@@ -6,6 +6,8 @@ Visit this site to know more about us [MeCare Hospital](https://health-care-hosp
 - For connect with our Patient
 - To Informed all Update about our Services
 - Share our all plan to everyone
+- find out us very easily
+- contact us very quickly and easily
 
 ## Our Motto
 We Are Specialize in Medical Diagnositics
