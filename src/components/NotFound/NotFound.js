@@ -1,10 +1,12 @@
 import React from 'react';
-import './NotFound.css'
+import './NotFound.css';
+import {NavLink } from 'react-router-dom';
+
 
 const NotFound = () => {
     return (
         <div className="notFound-page d-flex justify-content-center align-items-start p-1">
-            <button className='btn btn-primary'>Home</button>
+            <NavLink to="/" className='btn btn-primary'>Home</NavLink>
         </div>
     );
 };

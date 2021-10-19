@@ -12,6 +12,7 @@ const Login = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [ConfirmPassword, setConfirmPassword] = useState('');
     const [error, setError] = useState('')
     const location = useLocation()
     const history = useHistory()
@@ -34,6 +35,10 @@ const Login = () => {
         const userPass = e.target.value;
         setPassword(userPass)
     }
+    const handleConfirmPass = (e) => {
+        const userPass = e.target.value;
+        setConfirmPassword(userPass)
+    }
     const handleGoogleSignIn = () => {
         googleSignIn().then(result => {
             setUser(result.user)
@@ -48,6 +53,10 @@ const Login = () => {
     const handleCreateAccount = () => {
         if (email.length < 2 || name.length < 2 || password.length < 6) {
             setError("Please Fill all the field properly and pass should be min 6 charechter")
+            return
+        }
+        if (ConfirmPassword !== password) {
+            setError("Password Not Matched")
             return
         }
         emailPassSignIn(email, password, name)
@@ -89,9 +98,10 @@ const Login = () => {
                             {!userExist && <input type="text" className="mt-0" placeholder="Name" onBlur={handleName} />}<br />
                             <input type="email" placeholder="Email" onBlur={handleEmail} /><br />
                             <input type="password" placeholder="Password" onBlur={handlePass} /><br />
+                            {!userExist && <input type="password" placeholder="Confirm Password" onBlur={handleConfirmPass} />}<br/>
                             {userExist ? <button onClick={handleLogIn} className="btn border-0 rounded-pill ps-5 w-100 text-white  py-2 mt-3 gradient-btn ">Login </button> : <button onClick={handleCreateAccount} className="btn border-0 rounded-pill ps-5 w-100 text-white  py-2 mt-3 gradient-btn ">Register</button>}
-                            {userExist ? <p className="mt-3 fw-bolder d-flex justify-content-evenly"><span className="text-danger">Forget password?</span><span className="text-info" onClick={handleExist}> create an account.</span></p> : <p onClick={handleExist} className="mt-3 fw-bolder text-primary d-flex justify-content-evenly">Already have an account?</p>}
-                            <p className="text-center fw-bolder text-warning">{error}</p>
+                            {userExist ? <p className="mt-3 fw-bolder d-flex justify-content-evenly"><span className="text-warning">Forget password?</span><span className="text-info" onClick={handleExist}> create an account.</span></p> : <p onClick={handleExist} className="mt-3 fw-bolder text-primary d-flex justify-content-evenly">Already have an account?</p>}
+                            <p className="text-center fw-bolder text-danger">{error}</p>
                         </div>
                     </div>
                 </div>
