@@ -1,8 +1,18 @@
 .price-section{
     border-radius: 0% 100% 0% 100% / 55% 0% 100% 45% ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     color: white;
-    background: rgba(24, 24, 197, 0.877);
+    background: rgb(93, 93, 255);
 }
 .price-btn{
-background-color: rgba(22, 22, 175, 0.822);
+background-color: rgb(85, 85, 233);
+}
+.price-container{
+  transition: 0.3s;
+  box-shadow: 1px 1px 25px -11px rgba(0,0,0,0.4);
+}
+.price-container:hover{
+    box-shadow: 1px 1px 22px -10px grey;
+    transform: scale(1.05);
 }

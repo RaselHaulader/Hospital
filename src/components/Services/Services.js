@@ -15,7 +15,7 @@ const Services = () => {
         <div id="services" className="services-container mt-5 pt-5">
             <div className="text-center service-header">
                 <h1 className="fw-bold mb-5">Our Services</h1> 
-                <p>We provide best service to all our patient. We are committed to treat you very carefully.</p>
+                <p className="w-75 mx-auto text-secondary my-5 px-5">We provide best service to all our patient. <br/> We are committed to treat Our patient very carefully. Our experienced doctor always <br/> focused on better treatment and quality service.</p>
                <div className="row container mx-auto">
                   {services.map((service)=> <Service key={service.id} service={service} />)}
                </div>

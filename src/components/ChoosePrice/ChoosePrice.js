@@ -11,9 +11,9 @@ const ChoosePrice = () => {
                     <p className="text-secondary w-50 mx-auto">If you are covered by one of these insurances, you are responsible for paying the co-pays and deductibles at the time of service. </p>
                 </div>
                 <div className="row container mx-auto">
-                  <PriceItem></PriceItem>
-                  <PriceItem></PriceItem>
-                  <PriceItem></PriceItem>
+                  <PriceItem price='57' type='Basic'></PriceItem>
+                  <PriceItem price='77' type='Standard'></PriceItem>
+                  <PriceItem price='97' type='Prime'></PriceItem>
                 </div>
             </div>
         </div>

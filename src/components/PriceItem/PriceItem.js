@@ -1,22 +1,24 @@
 import React from 'react';
 import './PriceItem.css';
 
-const PriceItem = () => {
+const PriceItem = ({type, price}) => {
     return (
         <div className="col-12 col-md-4 p-4">
-            <div className="border rounded-3">
+            <div className="rounded-3 price-container">
                 <div className="text-center pb-2 price-section py-4 ">
-                    <h5>Basic</h5>
-                    <p>$<span>57</span><small>/Month</small></p>
+                    <h3>{type}</h3>
+                    <p>$<span>{price}</span><small>/Month</small></p>
                 </div>
                 <div className="text-center">
                     <div className="text-start px-3 text-secondary">
                         <li> Blood Test</li>
-                        <li> Urin Test</li>
+                        <li> Urine Test</li>
                         <li> Liver check</li>
                         <li> Lunch Test</li>
+                        <li> MRI </li>
+                        <li> CityScan</li>
                     </div>
-                    <button className=" border-0 rounded-pill w-75 ps-5 text-white ms-3 me-0 py-2 mt-5 pe-1 my-4 price-btn">Buy Now <i className="fas ms-3 fa-angle-right"></i></button>
+                    <button className=" border-0 rounded-pill w-75  text-white  me-0 py-2 mt-5  my-4 price-btn">Buy Now <i className="fas ms-3 fa-angle-right"></i></button>
                 </div>
             </div>
         </div>

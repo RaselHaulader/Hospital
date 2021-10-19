@@ -78,10 +78,10 @@ const Login = () => {
                 <div className="col-12 text-center login-form-body col-md-6">
                     <h2 className="login-form-heading my-5">{userExist ? "LogIn Account" : "Create Account"} </h2>
                     <p className="text-secondary"><small>With Your Social Network</small></p>
-                    <div className="d-flex w-75  mx-auto justify-content-between">
-                        <button onClick={handleGoogleSignIn} className="btn rounded-pill google-sign-btn border  px-4">Google</button>
-                        <button className="btn rounded-pill fb-sign-btn border  px-4">FaceBook</button>
-                        <button className="btn rounded-pill twitter-sign-btn border   px-4">Twitter</button>
+                    <div className="d-flex w-75  mx-auto justify-content-center">
+                        <button onClick={handleGoogleSignIn} className="btn rounded-pill google-sign-btn border  px-3 me-1">Google</button>
+                        <button className="btn rounded-pill fb-sign-btn border  px-3 me-1">FaceBook</button>
+                        <button className="btn rounded-pill twitter-sign-btn border   px-3 me-1">Twitter</button>
                     </div>
                     <p className="fw-bold text-secondary mt-3">{user.displayName} - or -</p>
                     <div className=" d-flex m-0 flex-column align-items-center">
