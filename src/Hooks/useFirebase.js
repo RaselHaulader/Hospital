@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { GoogleAuthProvider, signInWithEmailAndPassword, updateProfile, createUserWithEmailAndPassword, getAuth, signInWithPopup, signOut, onAuthStateChanged } from "firebase/auth";
 import initFirebase from '../firebase/firebaseInit';
+import swal from 'sweetalert';
 initFirebase()
 const auth = getAuth();
 const useFirebase = () => {
@@ -22,6 +23,7 @@ const useFirebase = () => {
         signOut(auth)
             .then(() => {
                 setUser([])
+                swal("Good job!", "Successfully Log out" ,"success");
                 setError('')
             })
             .catch((err) => setError(err.message))

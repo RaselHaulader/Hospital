@@ -5,6 +5,8 @@ import loginSvg from '../../images/touch-illustration.png'
 import ContactBar from '../ContactBar/ContactBar';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import swal from 'sweetalert';
+
 import './Login.css';
 
 const Login = () => {
@@ -46,8 +48,9 @@ const Login = () => {
     // pop up google sign in
     const handleGoogleSignIn = () => {
         googleSignIn().then(result => {
+            swal("Good job!", "Log In success" , "success");
             setUser(result.user)
-
+           
             // redirect user to ongoing path after login
             history.push(redirect_uri)
             setError('')
@@ -69,6 +72,7 @@ const Login = () => {
             setError("Password Not Matched")
             return
         }
+        swal("Good job!", "Register is success" ,"success");
         emailPassSignIn(email, password, name)
         setError(errors)
         setUserExist(true)
@@ -84,6 +88,7 @@ const Login = () => {
         }
         emailPassLogin(email, password)
             .then(result => {
+                swal("Good job!", "Log In success" , "success");
                 setUser(result.user)
 
             // redirect user to ongoing path after login

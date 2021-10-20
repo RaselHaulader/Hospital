@@ -24,3 +24,6 @@ When you visit 8-2-8 Urgent Care, you will be seen by our professional staff of 
 - Firebase Authentication
 - fontawsome icon
 - google fonts
+- Swiper js-img slider
+- AOS (animation on scroll) effect
+- sweet alert
