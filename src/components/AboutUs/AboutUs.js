@@ -6,10 +6,10 @@ const AboutUs = () => {
     return (
         <div id="about">
             <div className="row container mx-auto pt-5">
-                <div data-aos="fade-down-right"   data-aos-duration="1500" data-aos-once="false" className="col-12 col-md-6 d-flex align-items-center justify-content-center">
+                <div data-aos="fade-down"   data-aos-duration="1500" data-aos-once="false" className="col-12 col-md-6 d-flex align-items-center justify-content-center">
                     <img className="w-100" src={aboutSvg} alt="" />
                 </div>
-                <div  data-aos="fade-down-left"  data-aos-duration="1500" data-aos-once="false" className="col-12 col-md-6 d-flex pb-2 justify-content-center">
+                <div  data-aos="fade-up"  data-aos-duration="1500" data-aos-once="false" className="col-12 col-md-6 d-flex pb-2 justify-content-center">
                     <div className="about-details">
                         <h1 className=" about-header text-center my-5">About us</h1>
                         <h1 className=" about-header2">We Are Specialize <br /> in Medical Diagnositics</h1>

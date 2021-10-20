@@ -27,7 +27,7 @@ const Home = () => {
                     "disableOnInteraction": false
                 }}
                 speed={1500}
-                style={{height:"95vh"}}
+                style={{height:"95vh" , width:"100%"}}
                 pagination={{
                     "clickable": true
                 }}

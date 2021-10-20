@@ -1,17 +1,17 @@
 import React from 'react';
 import './Banner.css'
 
-const Banner = ({img}) => {
+const Banner = ({ img }) => {
     const bannerBg = {
         backgroundImage: `url(${img})`
     }
     return (
-        <div style={bannerBg} className="home-banner">
+        <div className="home-banner" style={bannerBg}>
             <div className="h-100 row w-75 mx-auto align-items-center">
                 <div className="col-7 banner-info">
-                    <h1 data-aos="fade-left"  data-aos-once="false">Get Better Care For <br /> Your <span style={{ color: "navy" }}> Health</span></h1>
+                    <h1 data-aos="fade-left" data-aos-once="false">Get Better Care For <br /> Your <span style={{ color: "navy" }}> Health</span></h1>
                     <p>Health is the condition of our body and mind. Health may be good or bad. Good health is the good condition of our body and mind. There is a saying, “Health is wealth”.</p>
-                    <button data-aos="fade-right"  data-aos-once="false" className="btn border-0 rounded-pill ps-3  text-white py-2 gradient-btn">Learn more <i class="fas ms-2 fa-angle-right"></i></button>
+                    <button data-aos="fade-right" data-aos-once="false" className="btn border-0 rounded-pill ps-3  text-white py-2 gradient-btn">Learn more <i class="fas ms-2 fa-angle-right"></i></button>
                 </div>
             </div>
 

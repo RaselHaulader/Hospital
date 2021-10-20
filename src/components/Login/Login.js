@@ -106,8 +106,8 @@ const Login = () => {
                     <p className="text-secondary"><small>With Your Social Network</small></p>
                     <div className="d-flex w-75  mx-auto justify-content-center">
                         <button onClick={handleGoogleSignIn} className="btn rounded-pill google-sign-btn border  px-3 me-1">Google</button>
-                        <button className="btn rounded-pill fb-sign-btn border  px-3 me-1">FaceBook</button>
-                        <button className="btn rounded-pill twitter-sign-btn border   px-3 me-1">Twitter</button>
+                        <button disabled className="btn rounded-pill fb-sign-btn border  px-3 me-1">FaceBook</button>
+                        <button disabled className="btn rounded-pill twitter-sign-btn border   px-3 me-1">Twitter</button>
                     </div>
                     <p className="fw-bold text-secondary mt-3">{user.displayName} - or -</p>
                     <div className=" d-flex m-0 flex-column align-items-center">
