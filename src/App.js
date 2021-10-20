@@ -13,6 +13,10 @@ import NotFound from './components/NotFound/NotFound';
 import PrivateRoute from './PrivateRoute/PrivateRoute';
 import AuthProvider from './context/AuthProvider';
 import ServiceDetails from './components/ServiceDetails/ServiceDetails';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 function App() {
   return (

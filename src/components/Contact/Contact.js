@@ -13,7 +13,7 @@ const Contact = () => {
                 <h1 className="contact-header text-center mb-5">Get In Touch With us</h1>
                 <div className="row container mx-auto">
                     {/* contact form */}
-                    <div className="col-12 col-md-6 p-3  py-5 rounded-3 border">
+                    <div data-aos="fade-down-right"   data-aos-duration="1500" data-aos-once="false" className="col-12 col-md-6 p-3  py-5 rounded-3 border">
                         <div>
                             <h1 className="text-center contact-header2">Send Message</h1>
                             <div className="send-message-form p-5">
@@ -27,7 +27,7 @@ const Contact = () => {
                         </div>
                     </div>
                     {/* contact address boxes */}
-                    <div className="col-12 col-md-6 p-3">
+                    <div data-aos="fade-down-left"   data-aos-duration="1500" data-aos-once="false" className="col-12 col-md-6 p-3">
                         <div className="row container">
                             <div className="col-12 col-md-6 p-1">
                                 <div className="border m-2 rounded-3 p-2 py-4 text-center">

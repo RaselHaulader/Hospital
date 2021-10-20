@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
 
 .home-banner{
-    background-image: url('../../images/home-banner.png');
+   
     background-position:center;
     background-size: cover;
     height:85vh;

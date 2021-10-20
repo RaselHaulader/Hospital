@@ -101,7 +101,7 @@ const Login = () => {
                 <div className="col-12 col-md-6 d-flex align-items-center">
                     <img className="w-100" src={loginSvg} alt="" />
                 </div>
-                <div className="col-12 text-center login-form-body col-md-6">
+                <div  data-aos="zoom-in"  data-aos-once="false" className="col-12 text-center login-form-body col-md-6">
                     <h2 className="login-form-heading my-5">{userExist ? "LogIn Account" : "Create Account"} </h2>
                     <p className="text-secondary"><small>With Your Social Network</small></p>
                     <div className="d-flex w-75  mx-auto justify-content-center">
