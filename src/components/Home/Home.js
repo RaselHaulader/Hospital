@@ -23,7 +23,7 @@ const Home = () => {
             <Swiper
                 spaceBetween={0}
                 autoplay={{
-                    "delay": 2500,
+                    "delay": 5000,
                     "disableOnInteraction": false
                 }}
                 speed={1500}

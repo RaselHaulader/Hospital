@@ -16,6 +16,7 @@
   color: rgb(20, 20, 221);
 
 }
+
 .doctore-img{
     width: 90px;
     top: -20px;
@@ -23,7 +24,15 @@
     position: absolute;
     border-radius:30% 70% 70% 30% / 30% 30% 70% 70% ;
     border: 3px solid rgba(93, 93, 156, 0.781);
+    transition: 0.5s;
 }
+.doctor-container:hover .doctore-img{
+    border-radius:10px;
+    border: 1px solid rgba(93, 93, 156, 0);
+    top: -30px;
+    right: -20px;
+  }
+
 .doctor-info h4{
     font-family: 'Titillium Web', sans-serif;
     font-weight: bold;

@@ -7,7 +7,7 @@ const Doctor = ({doctor}) => {
         <div data-aos="zoom-out-up"   data-aos-duration="1000"  data-aos-once="false" className="col-12 col-md-4">
             <div className="d-flex flex-column m-4 p-2 doctor-container">
                 <div>
-                    <img className="doctore-img " src={doctor.img} alt="" />
+                    <img className="doctore-img" src={doctor.img} alt="" />
                 </div>
                 <div className="doctor-info">
                     <h4>{doctor.name}</h4>
