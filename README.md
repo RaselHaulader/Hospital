@@ -2,12 +2,12 @@
 
 Visit this site to know more about us [MeCare Hospital](https://health-care-hospital-dd05d.web.app/)
 
-## Site Purpose
-- For connect with our Patient
-- To Informed all Update about our Services
-- Share our all plan to everyone
-- find out us very easily
-- contact us very quickly and easily
+## Site functionality
+- Click service to see details information of service.
+- Protected Route.
+- Doctors page.
+- Responsive design.
+- Animation for nice feel.
 
 ## Our Motto
 We Are Specialize in Medical Diagnositics
